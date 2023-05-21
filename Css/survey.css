@@ -1,0 +1,7 @@
+body
+{
+  background:linear-gradient(to bottom, #ff99cc 0%, #33ccff 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

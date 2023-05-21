@@ -1,0 +1,218 @@
+body
+{
+    background-color:black;
+}
+.home{
+    color:RED;
+    background: YELLOW;
+    margin-top:2%;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5%;
+    
+}
+table{
+    width: 100%;
+    height: 60px;
+    border:1px solid transparent;
+    margin-top:3%;
+}
+th
+{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+.no
+{
+    border:1px solid transparent;
+}
+.red
+{
+    background:rgb(228, 10, 43);
+    border-radius: 10px;
+    font-family: monospace;
+    color:cyan;
+    font-size:20px;
+}
+.red:hover
+{
+    background: linear-gradient(to bottom, rgb(236, 125, 143) 0%,rgb(238, 135, 135) 30%,rgb(250, 100, 100) 60%,rgb(182, 35, 60) 100%);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color:yellow;
+    text-shadow:2px 3px 3px black ,2px 3px 3px black;
+}
+.orange
+{
+    background:rgb(255, 94, 0);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.orange:hover
+{
+    background:linear-gradient(to bottom,rgb(255, 94, 0) 0% , rgb(255, 94, 0) 30% , YELLOW 55%, YELLOW 60%,rgb(255, 94, 0) 80% ,rgb(255, 94, 0) 100%) ;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color:blue;
+    text-shadow:2px 3px 3px yellow ,2px 3px 3px yellow;
+}
+.green
+{
+    background:greenyellow;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.green:hover
+{
+    background: linear-gradient(to bottom, rgb(50, 240, 97) 0%,rgb(48, 236, 64) 30%,rgb(164, 236, 48) 60%,rgb(173, 240, 50) 100%);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color:RED;
+    text-shadow:2px 3px 3px cyan ,2px 3px 3px cyan;
+    
+}
+.aquamarine
+{
+    background:aqua;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.aquamarine:hover
+{
+    background: linear-gradient(to bottom, rgb(12, 190, 235) 0%,rgb(13, 151, 185) 30%,rgb(7, 147, 228) 60%,rgb(38, 147, 161) 100%);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color:blue;
+    text-shadow:1px 2px 2px orange ,1px 2px 2px orange;
+    
+}
+.gray
+{
+    background:rgb(77, 76, 76);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color:white;
+}
+.gray:hover
+{
+background: linear-gradient(to bottom, rgb(84, 90, 92) 0%,rgb(7, 192, 22) 30%,rgb(89, 99, 104) 60%,rgb(70, 80, 82) 100%);
+border-radius: 10px;
+font-family: monospace;
+font-size: 20px;
+color:orange;
+text-shadow:2px 3px 3px black ,2px 3px 3px black;
+}
+.gray2
+{
+    background:rgb(158, 153, 153);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.gray2:hover
+{
+    background: linear-gradient(to bottom, rgb(53, 57, 58) 0%,rgb(41, 45, 46) 30%,rgb(63, 70, 73) 60%,rgb(70, 80, 82) 100%);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color:white;
+    text-shadow:2px 3px 3px blue ,2px 3px 3px blue;
+}
+.peach
+{
+    background:palevioletred;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.peach:hover{
+    background: linear-gradient(to bottom, rgb(247, 90, 155) 0%,rgb(245, 101, 185) 30%,rgb(247, 91, 213) 60%,rgb(255, 2, 99) 100%);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color:blue;
+    text-shadow:1px 2px 2px yellow ,1px 2px 2px yellow;
+}
+.purple
+{
+    color: aliceblue;
+    background:rgb(121, 48, 72);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.purple:hover{
+    background: linear-gradient(to bottom, rgb(238, 78, 238) 0%,rgb(175, 18, 175) 30%, rgb(174, 33, 175) 60%, rgb(172, 54, 172) 100%);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color:cyan;
+    text-shadow:2px 3px 3px black ,2px 3px 3px black;
+}
+.green2
+{
+    background:green;
+    border-radius: 10px;
+    font-family: monospace;
+    color:cyan;
+    font-size: 20px;
+}
+.green2:hover{
+    background: linear-gradient(to bottom, rgb(40, 189, 40) 0%,rgb(55, 179, 55) 30%, rgb(81, 204, 81) 60%, rgb(119, 252, 119) 100%);
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color:white;
+    text-shadow:2px 3px 3px black ,2px 3px 3px black;
+}
+.tab1
+{
+    width: 85%;
+    margin-left:7%;
+    margin-top: 3%;
+}
+.num
+{
+    text-align:left;
+}
+.font
+{
+    margin-top: -35px;
+}
+.font:hover
+{
+    margin-top: -35px;
+}
+.font1
+{
+    font-size:10px;
+    margin-top:-30px;
+    font-family: cursive;
+}
+.font2
+{
+    font-size:9px;
+    margin-top:-12;
+    font-family: cursive;
+}
+.font3
+{
+    font-size:10px;
+    margin-top:-30px;
+    font-family: cursive;
+}
+.font4
+{
+    font-size:9px;
+    margin-top:-30px;
+    font-family: cursive;
+}

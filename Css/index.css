@@ -1,0 +1,36 @@
+body
+{
+	background:black;
+	background-size: cover;
+	background-position: center;
+	background-repeat:no-repeat;
+}
+a
+{
+	text-decoration: none;
+	color:white;
+}
+.periodic
+{
+	color:black;
+	font-size:2rem;
+}
+.periodic:hover
+{
+ color:WHITE;
+ text-shadow: 1px 2px 2px blue, 1px 2px 2px blue, 1px 2px 2px blue;
+}
+.text:hover
+{
+	color:WHITE;
+	text-shadow: 1px 2px 2px blue, 1px 2px 2px blue, 1px 2px 2px blue;
+}
+.logo
+{
+	font-size:2rem;
+	position:fixed;
+	color:White;
+	font-family: cursive;
+	 background: -webkit-linear-gradient(red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
