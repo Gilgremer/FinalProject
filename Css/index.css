@@ -25,12 +25,14 @@ a
 	color:WHITE;
 	text-shadow: 1px 2px 2px blue, 1px 2px 2px blue, 1px 2px 2px blue;
 }
-.logo
+.name
 {
-	font-size:2rem;
-	position:fixed;
-	color:White;
-	font-family: cursive;
-	 background: -webkit-linear-gradient(red, yellow);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	animation: animatetext 1s infinite;
+}
+@keyframes animatetext{
+0% {text-shadow: 0 0 4px blue, 0 0 4px blue, 0 0 4px blue;}
+25% {text-shadow: 0 0 4px red, 0 0 4px red, 0 0 4px red;}
+50% {text-shadow: 0 0 4px blue, 0 0 4px blue, 0 0 4px blue;}
+75% {text-shadow: 0 0 4px yellow, 0 0 4px yellow, 0 0 4px yellow;}
+100% {text-shadow: 0 0 4px blue, 0 0 4px blue, 0 0 4px blue;}
+}
