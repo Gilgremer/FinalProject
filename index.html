@@ -30,11 +30,24 @@
     <!--HEADER-->
     
     <!--HOME-->
-      <div class="container d-flex align-items-center justify-content-center bg-danger mt-5" id="Home"></div>
-        <div class="container mt-5 responsive bg-success">
-         <h1 class="text-center" style="height: 30rem;" >HOME</h1> 
-       </div>
-    </div>
+      <div class="container mt-5" id="Home">
+       <div class="container mt-5">
+            <h1 class="name  w-100 text-center mt-5 text-white d-flex align-items-center justify-content-center" style="height:10rem;">DANNAFE GILGREMER JENFIEL</h1>
+         </div>
+     <div class="row">
+       <div class="col-lg-4">
+        <div class="card" style="width:400px">
+  <img class="card-img-top" src="gilgremer.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div></div>
+       <div class="col-lg-4">a</div>
+       <div class="col-lg-4">a</div>
+     </div>
+    </div></div></div>
     <!--HOME-->
 
     <!--ABOUT-->
@@ -42,17 +55,16 @@
      <div class="container mt-5 responsive bg-warning">
       <h1 class="text-center ">ACTIVITY</h1>
       <div class="row">
-       <div class="col-4"> 
+       <div class="col-lg-4"> 
         <a href="https://gilgremer.github.io/FinalProject/periodictable.html">
         <img src="Images/periodic.jpg" width="300" class="float-start rounded-1 mb-3 ms-3 mt-5">
         <h5 class="text-center text-danger">Periodic Table</h5></a></div>
-
-        <div class="col-4">  
+        <div class="col-lg-4">  
         <a href="https://gilgremer.github.io/FinalProject/survey.html">
     <img src="Images/survey.jpg" width="300" class="float-start rounded-1 mb-3 ms-3 mt-5">
         <h5 class="text-center text-danger">Survey</h5></a></div>
  
-<div class="col-4"> 
+<div class="col-lg-4"> 
     <a href="https://gilgremer.github.io/FinalProject/grid.html">
         <img src="Images/grid.jpg" width="300" class="float-start rounded-1 mb-3 ms-3 mt-5">
         <h5 class="text-center text-danger">Activity</h5></a></div>
@@ -61,7 +73,7 @@
 
  <!--ABOUT US-->
       <div class="container mt-2" id="About"></div>
-         <div class="container mt-5 responsive bg-info">
+         <div class="container mt-5 responsive bg-success">
         <h1 class="d-flex align-items-center justify-content-center">ABOUT US</h1> 
         <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -101,9 +113,34 @@
 
     <!--CONTACT-->
       <div class="container mt-2" id="Contacts"></div>
-       <div class="container mt-5 responsive bg-primary">
-    <h1 class="text-center" style="height: 30rem;" >CONTACTS</h1> 
-      </div></div>
+       <div class="container mt-5 responsive bg-info">
+    <h1 class="text-center">CONTACTS</h1> 
+    <form action="/action_page.php">
+    <div class="row">
+  <div class="col-lg-4"></div>
+  <div class="col-lg-4 text-warning mt-5">
+    <input type="text" placeholder="Enter your name"  class="rounded-2 w-100" required>
+  </div>
+    <div class="col-lg-4"></div></div>
+    <div class="row">
+      <div class="col-lg-4"></div>
+    <div class="col-lg-4 text-warning mt-2">
+    <input type="email" placeholder="Enter a valid email address" class="rounded-2 w-100" required>
+  </div>
+  <div class="col-lg-4"></div>
+  </div>
+  <div class="row">
+      <div class="col-lg-4"></div>
+    <div class="col-lg-4 text-warning mt-2">
+    <textarea class="w-100" style="height:8rem;" placeholder="Any suggestions?"></textarea>
+  </div>
+  <div class="col-lg-4"></div>
+  </div>
+  <div class="d-flex align-items-center justify-content-center">
+  <button type="submit" class="btn btn-warning mb-4 mt-2">Submit</button></div>
+</form></div></div></div></div></div>
+
+
       <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
     <!--CONTACT-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
